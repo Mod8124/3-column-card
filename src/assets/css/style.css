@@ -120,6 +120,7 @@
   padding: 15px 30px 15px 30px;
   border-radius: 25px;
   border: 2px solid transparent;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .card:first-child {
@@ -172,6 +173,17 @@
     border-bottom-left-radius: 0px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+  }
+
+  .tittle h3 {
+    font-size: 2em;
+  }
+
+  .text {
+    padding-bottom: 60px;
+  }
+  .text p {
+    font-size: 0.9em;
   }
 
   .attribution {
