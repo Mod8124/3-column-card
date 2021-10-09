@@ -5,10 +5,11 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "compile:sass":"sass --watch src/assets/scss:src/assets/css",
+    "compile:sass": "sass --watch src/assets/scss:src/assets/css",
     "start": "node server.js"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "sass": "^1.42.1",
     "vue": "^3.0.0"
   },
